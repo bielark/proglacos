@@ -8,5 +8,14 @@ exibição na tela:
 3 elevado à 15 = 14348907
 OBS: Tente fazer em uma classe utilizando Math.pow() e em outra classe sem utilizar Math.pow()'''
 
+import math
 
+cont = 3
+pot = 0
+
+while (pot <= 15):
+    conta = math.pow(cont, pot)
+    print(f"O número 3 elevado a {pot} é: {conta:.0f}")
+
+    pot= pot + 1
 
